@@ -7,3 +7,5 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgrespassword
       POSTGRES_DATABASE: graphql
+    ports:
+      - 5432:5432
